@@ -87,7 +87,7 @@ struct tolerance_based_delegate<T, true>
  * floating point (eg. boost.multiprecision).
  */
 template <typename T>
-struct tolerance_based : tolerance_based_delegate<T, !is_array<T>::value /* && !is_abstract_class_or_function<T>::value */>::type {};
+struct tolerance_based : tolerance_based_delegate<T, !is_array<T>::value && !is_abstract_class_or_function<T>::value>::type {};
 
 // ************************************************************************** //
 // **************                 fpc::strength                ************** //
