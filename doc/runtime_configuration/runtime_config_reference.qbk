@@ -466,7 +466,7 @@ Case sensitive [link regular_param_value string]:
 ]
 
 [note For JUnit and if not specified, the log file is generated after the name of the
- [link boost_test.tests_organization.test_suite.master_test_suite master test suite].]
+ [link boost_test.tests_organization.test_tree.master_test_suite master test suite].]
 
 [h4 Command line syntax]
 

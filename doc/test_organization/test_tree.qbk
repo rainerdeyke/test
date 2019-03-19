@@ -1,0 +1,24 @@
+[/
+ / Copyright (c) 2019 Raffi Enficiaud
+ /
+ / Distributed under the Boost Software License, Version 1.0. (See accompanying
+ / file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
+ /]
+
+[section:test_tree Test tree]
+
+The test tree is the hierarchy of test cases and test suites, along with all the fixtures (global, case or
+suite level), and the respective dependencies within all those elements.
+
+The following hierarchy represents a test tree (further detailed in the [link boost_test.tests_organization.test_tree.test_suite test-suite] 
+section):
+
+[$images/class-hier.jpg]
+
+
+[include test_suites.qbk]
+[include master_test_suite.qbk]
+[include test_naming.qbk]
+[include test_tree_content.qbk]
+
+[endsect] [/ test test_tree]
